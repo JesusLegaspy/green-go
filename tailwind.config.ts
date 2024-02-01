@@ -7,5 +7,14 @@ const config: Config = {
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   plugins: [],
+  theme: {
+    extend: {
+      colors: {
+        sky: {
+          250: '#9cdcfc',
+        },
+      }
+    },
+  },
 }
 export default config
