@@ -36,7 +36,7 @@ const Hero = () => {
             <div className='flex justify-center items-center w-full aspect-square bg-teal-50'><FaCaravan /></div>
             <div className='flex justify-center items-center w-full aspect-square bg-teal-50'><FaTractor /></div>
           </div>
-          <div className={`bg-orange-600 text-white w-fit px-8 py-2 text-6xl rounded-xl ${gurajada.className}`}>
+          <div className={`bg-orange-600 text-white w-fit px-8 py-2 text-6xl rounded-xl sm:mb-6 ${gurajada.className}`}>
             Appointment
           </div>
         </div>
