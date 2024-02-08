@@ -2,7 +2,6 @@ import Hero from '../Hero';
 import TopHeader from '../TopHeader';
 import Appointment from '../Appointment';
 
-import { Roboto_Condensed } from 'next/font/google'
 import { Open_Sans } from 'next/font/google'
 
 

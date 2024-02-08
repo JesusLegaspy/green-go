@@ -15,12 +15,13 @@ const gurajada = Gurajada({ subsets: ['latin'], weight: "400" });
 
 const Hero = () => {
   return (
-    <div className='relative h-[75vh] min-h-[700px] overflow-hidden'>
+    <div className='relative h-[75vh] overflow-hidden'>
       <Image
         alt='Hero - car engine compartment'
         src={hero}
         className='object-cover'
         fill
+        priority
       />
       <div className='absolute inset-0'>
         <div className='flex flex-col justify-around items-center h-full'>
@@ -28,7 +29,7 @@ const Hero = () => {
             <div className='mr-8'>You have the wheels</div>
             <div className='text-right'>we have the skills</div>
           </div>
-          <div className='grid grid-cols-3 gap-5 w-full md:w-5/8 lg:w-1/2 px-5 text-6xl sm:text-8xl'>
+          <div className='grid grid-cols-3 gap-5 w-full sm:w-3/4 md:w-3/5 lg:w-5/12 px-5 text-6xl sm:text-8xl'>
             <div className='flex justify-center items-center w-full aspect-square bg-teal-50'><FaCar /></div>
             <div className='flex justify-center items-center w-full aspect-square bg-teal-50'><FaMotorcycle /></div>
             <div className='flex justify-center items-center w-full aspect-square bg-teal-50'><FaTruckPickup /></div>
