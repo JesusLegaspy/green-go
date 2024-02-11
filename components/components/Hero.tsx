@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import hero from '../public/hero.jpg';
+import hero from '@/public/hero.jpg';
 import { Gidugu } from 'next/font/google'
 import { Gurajada } from 'next/font/google'
 import { FaCar } from "react-icons/fa";

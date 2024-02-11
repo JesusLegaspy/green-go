@@ -1,7 +1,7 @@
 import { Montserrat } from 'next/font/google'
 import Image from 'next/image';
-import logo from '../public/logo.png';
-import metal from '../public/metal.jpg';
+import logo from '@/public/logo.png';
+import metal from '@/public/metal.jpg';
 
 const montserrat = Montserrat({ subsets: ['latin'] });
 

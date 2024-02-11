@@ -1,6 +1,6 @@
-import Hero from '../Hero';
-import TopHeader from '../TopHeader';
-import Appointment from '../Appointment';
+import Hero from '../components/Hero';
+import TopHeader from '../components/TopHeader';
+import Appointment from '../components/Appointment';
 
 import { Open_Sans } from 'next/font/google'
 

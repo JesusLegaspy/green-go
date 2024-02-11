@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import car from '@/public/car.jpg';
 import { Roboto_Condensed } from 'next/font/google'
-import Appointment from '../Appointment';
+import Appointment from '../components/Appointment';
 
 const robotoCondensed = Roboto_Condensed({ weight: "400", subsets: ["latin"] });
 
