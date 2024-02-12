@@ -1,6 +1,7 @@
 import Main from '@/components/sections/Main';
 import About from '@/components/sections/About';
 import Services from '@/components/sections/Servies';
+import Locations from '@/components/sections/Locations';
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <Main />
       <About />
       <Services />
+      <Locations />
     </main>
   )
 }

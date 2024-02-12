@@ -17,7 +17,7 @@ const robotoCondensed = Roboto_Condensed({ weight: "400", subsets: ["latin"] });
 
 const Services = () => {
   return (
-    <div className='mb-6 max-w-screen-2xl w-full py-6 bg-teal-950 text-white'>
+    <div className='max-w-screen-2xl w-full py-6 bg-quinary text-white pb-12'>
       <h2 className={`${robotoCondensed.className} text-2xl uppercase text-center`}>
         Services We Offer
       </h2>
@@ -39,20 +39,20 @@ const Services = () => {
         <Service Icon={ImKey2} text="Ignition" />
         <Service Icon={FaCarCrash} text="Chassis" />
         <div className='flex items-center justify-center mb-12'>
-          <div className='text-7xl bg-amber-100 text-black rounded-lg p-2'>
+          <div className='text-7xl bg-tertiary text-black rounded-lg p-2'>
             <Image
               src={muffler}
               alt={'muffler'}
               height={56}
             />
           </div>
-          <div className='flex items-center bg-cyan-900 w-8/12 h-12 max-w-sm'>
+          <div className='flex items-center bg-quaternary w-8/12 h-12 max-w-sm'>
             <p className='uppercase pl-3'>Exhaust</p>
           </div>
         </div>
       </div>
       <div className='flex justify-center w-full'>
-        <div className='bg-orange-500 max-w-sm rounded-md p-4 mx-8'>
+        <div className='bg-secondary max-w-sm rounded-md p-4 mx-8'>
           <p>
             We provide proven reliability with an excellent track record in quality and assurance.
           </p>

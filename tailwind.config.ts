@@ -10,10 +10,15 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        sky: {
-          250: '#9cdcfc',
-        },
-      }
+        primary: '#a0dcff',
+        secondary: '#dd6e42',
+        tertiary: '#e8dab2',
+        quaternary: '#4f6d7a',
+        quinary: '#153131',
+        senary: '#DFECF0',
+        white: '#ffffff',
+        black: '#000000',
+      },
     },
   },
 }

@@ -18,7 +18,7 @@ const TopHeader = () => {
               fill
             />
           </div>
-          <div className='z-10 absolute inset-0 bg-sky-250 opacity-75' />
+          <div className='z-10 absolute inset-0 bg-primary opacity-75' />
           <div className='z-0 absolute inset-0'>
             <Image
               alt='Logo background'
@@ -30,7 +30,7 @@ const TopHeader = () => {
         </div>
 
       </div>
-      <div className={`w-full bg-teal-950 text-white text-center uppercase ${montserrat.className}`}>
+      <div className={`w-full bg-quinary text-white text-center uppercase ${montserrat.className}`}>
         Hope's vehicle service experts
       </div>
     </div>
