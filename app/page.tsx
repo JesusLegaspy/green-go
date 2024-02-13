@@ -2,6 +2,7 @@ import Main from '@/components/sections/Main';
 import About from '@/components/sections/About';
 import Services from '@/components/sections/Servies';
 import Locations from '@/components/sections/Locations';
+import Reviews from '@/components/sections/Reviews';
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <About />
       <Services />
       <Locations />
+      <Reviews />
     </main>
   )
 }
