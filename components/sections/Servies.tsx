@@ -17,7 +17,7 @@ const robotoCondensed = Roboto_Condensed({ weight: "400", subsets: ["latin"] });
 
 const Services = () => {
   return (
-    <div className='max-w-screen-2xl w-full py-6 bg-quinary text-white pb-12'>
+    <div className='w-full py-6 bg-quinary text-white pb-12'>
       <h2 className={`${robotoCondensed.className} text-2xl uppercase text-center`}>
         Services We Offer
       </h2>

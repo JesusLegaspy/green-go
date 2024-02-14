@@ -9,7 +9,7 @@ const robotoCondensedBold = Roboto_Condensed({ weight: "600", subsets: ["latin"]
 const Locations = () => {
 
   return (
-    <div className="max-w-screen-2xl w-full bg-quaternary text-white">
+    <div className="w-full bg-quaternary text-white">
       <div className='flex justify-center'>
         <div className='md:max-w-2xl p-4 mt-8'>
           <div className={`mb-4 ${robotoCondensed.className}`}>

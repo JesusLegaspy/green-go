@@ -7,7 +7,7 @@ import { Open_Sans } from 'next/font/google'
 const Main = () => {
 
   return (
-    <div className='max-w-screen-2xl w-full'>
+    <div className='w-full'>
       <TopHeader />
       <Hero />
       <div className='flex justify-center'>

@@ -50,7 +50,7 @@ const Reviews = async () => {
 
   return (
     <div>
-      <div className="max-w-screen-2xl w-full">
+      <div className="w-full">
         <div className='flex justify-center'>
           <div className='md:max-w-2xl p-4 mt-8'>
             <div className="mb-6">
