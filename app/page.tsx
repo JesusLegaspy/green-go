@@ -4,6 +4,7 @@ import Services from '@/components/sections/Servies';
 import Locations from '@/components/sections/Locations';
 import Reviews from '@/components/sections/Reviews';
 import Blog from '@/components/sections/Blog';
+import Maps from '@/components/sections/Maps';
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Locations />
       <Reviews />
       <Blog />
+      <Maps />
     </main>
   )
 }
