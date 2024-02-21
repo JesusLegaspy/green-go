@@ -1,7 +1,7 @@
 'use client'
 
 const Posts = ({ url, height }: { url: string, height?: number }) => {
-  const sWidth = (window !== undefined && window.screen.width < 500) ? window.screen.width : 500;
+  const sWidth = (typeof window !== "undefined") && window.screen.width < 500 ? window.screen.width : 500;
 
   return (
     <div>

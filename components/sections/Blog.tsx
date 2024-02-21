@@ -22,9 +22,9 @@ const Blog = () => {
           url='https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid02Wq64nAqR7RbdyB3rHR7XMwpVMwSHbg5soHEm8LQoSQWGdDehQbwqTxcGzfeqrzEql%26id%3D100095414971348&show_text=true'
           height={400}
         />
-        <Posts url='https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid02aSzNXhSFSPquK7ocdXn31tMz1V1fM7nKYAecF4dFDkJyYX7N5aJTszvsUBRN5pMvl%26id%3D100095414971348&show_text=true'
+        {/* <Posts url='https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid02aSzNXhSFSPquK7ocdXn31tMz1V1fM7nKYAecF4dFDkJyYX7N5aJTszvsUBRN5pMvl%26id%3D100095414971348&show_text=true'
           height={400}
-        />
+        /> */}
       </div>
     </div>
   );
