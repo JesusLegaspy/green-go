@@ -25,7 +25,7 @@ const Hero = () => {
       />
       <div className='absolute inset-0'>
         <div className='flex flex-col justify-around items-center h-full'>
-          <div className={`text-6xl text-white ${gidugu.className}`}>
+          <div className={`text-5xl sm:text-6xl text-white ${gidugu.className}`}>
             <div className='mr-8'>You have the wheels</div>
             <div className='text-right'>we have the skills</div>
           </div>

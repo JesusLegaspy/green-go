@@ -32,7 +32,7 @@ const Locations = () => {
             <div className='border-b border-white py-1'>Nashville</div>
           </div>
           <div className='flex justify-center mb-8'>
-            <div className='flex items-center text-2xl text-secondary'>
+            <div className='flex items-center text-lg sm:text-2xl text-secondary'>
               <div className=''><FaPhone /></div>
               <div className={`pl-2 ${robotoCondensedBold.className}`}>870-826-0950</div>
             </div>
