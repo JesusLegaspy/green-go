@@ -1,5 +1,7 @@
 import Image from "next/image";
 import Stars from "../components/Stars";
+import { FaDirections } from "react-icons/fa";
+import { FaFacebook } from "react-icons/fa";
 
 import { Roboto_Condensed } from 'next/font/google';
 
@@ -77,20 +79,48 @@ const Maps = async () => {
           fill
           priority
         />
-        <div className="absolute top-8 left-4 text-sm text-gray-600 bg-white drop-shadow-lg h-32 w-64">
-          <div className="flex flex-col pt-2 pl-1">
-            <div className="text-base font-bold text-black">{name}</div>
-            <div className="flex">
-              <div className="mr-1">{Number(rating).toFixed(1)}</div>
-              <Stars rating={rating} />
-              <div className="ml-1">({ratingsNumber})</div>
+        <div className="group absolute w-full h-full">
+          <div className="z-10 absolute w-full h-full bg-slate-600 opacity-0 group-hover:opacity-15" />
+          <a href={url} target="_blank">
+            <div className="z-20 absolute w-full h-full flex items-center justify-center text-black opacity-0 group-hover:opacity-100 drop-shadow-lg">
+              Click to open on Google Maps
             </div>
-            <div>Mechanic · {address.split(',').at(0)}</div>
-            <div className="flex">
-              {openingHours.open_now ? <div className="text-green-600">Open ·</div> : <div>Closed</div>}
-              <div className="pl-2">Closes at {getTime(Number.parseInt(openingHours.periods.at(0)?.close.time ?? '0'))} ·</div>
+          </a>
+        </div>
+        <div className="z-30 absolute top-8 left-4 text-sm text-gray-500 bg-white drop-shadow-lg h-32 w-80">
+          <div className="flex justify-between">
+            <div className="flex flex-col pt-2 pl-1">
+              <div className="text-base font-bold text-black">{name}</div>
+              <div className="flex">
+                <div className="mr-1">{Number(rating).toFixed(1)}</div>
+                <Stars rating={rating} />
+                <div className="ml-1">({ratingsNumber})</div>
+              </div>
+              <div>Mechanic · {address.split(',').at(0)}</div>
+              <div className="flex">
+                {openingHours.open_now ? <div className="text-green-600">Open</div> : <div>Closed</div>}
+                <div className="pl-1">· Closes at {getTime(Number.parseInt(openingHours.periods.at(0)?.close.time ?? '0'))} ·</div>
+              </div>
+              <div>{phoneNumber}</div>
             </div>
-            <div>{phoneNumber}</div>
+            <div className="flex w-36 text-blue-600 space-x-4">
+              <div className="flex flex-col justify-center items-center">
+                <a href="https://www.facebook.com/people/Green-go/100095414971348" target="_blank">
+                  <FaFacebook className="border border-blue-600 rounded-full text-2xl h-10 w-10 p-2.5" />
+                </a>
+                <a href="https://www.facebook.com/people/Green-go/100095414971348" target="_blank">
+                  <div>Facebook</div>
+                </a>
+              </div>
+              <div className="flex flex-col justify-center items-center">
+                <a href={url} target="_blank">
+                  <FaDirections className="border border-blue-600 rounded-full text-2xl h-10 w-10 p-2.5" />
+                </a>
+                <a href={url} target="_blank">
+                  <div>Directions</div>
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
