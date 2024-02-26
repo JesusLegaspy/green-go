@@ -1,6 +1,7 @@
 import Image from 'next/image';
+import Stars from '../components/Stars';
 import { BsThreeDotsVertical } from "react-icons/bs";
-import { IoStarSharp } from "react-icons/io5";
+
 
 const getReviews = async () => {
   const res = await fetch(`https://maps.googleapis.com/maps/api/place/details/json?fields=reviews&placeid=${process.env.GOOGLE_PLACE_ID}&key=${process.env.GOOGLE_API_KEY}`);
@@ -36,17 +37,6 @@ interface ResponseReview {
 const Reviews = async () => {
   const data: ResponseReview = await getReviews();
   const reviews = data.result.reviews;
-
-  const renderStars = (count: number) => {
-    let i = 0;
-    const stars = [];
-    for (i; i < count; i++) {
-      stars.push(
-        <IoStarSharp key={i} />
-      );
-    }
-    return stars;
-  }
 
   return (
     <div>
@@ -84,7 +74,7 @@ const Reviews = async () => {
             </div>
             <div className='flex text-gray-600'>
               <div className='flex text-amber-500 mb-2'>
-                {renderStars(review.rating)}
+                <Stars rating={review.rating} />
               </div>
               <div className='ml-2 text-xs'>
                 {review.relative_time_description}
