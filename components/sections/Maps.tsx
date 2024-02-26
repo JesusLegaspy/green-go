@@ -83,7 +83,7 @@ const Maps = async () => {
           <div className="z-10 absolute w-full h-full bg-slate-600 opacity-0 group-hover:opacity-15" />
           <a href={url} target="_blank">
             <div className="z-20 absolute w-full h-full flex items-center justify-center text-black opacity-0 group-hover:opacity-100 drop-shadow-lg">
-              Click to open on Google Maps
+              Click to view on Google Maps
             </div>
           </a>
         </div>
