@@ -19,7 +19,7 @@ const About = () => {
           </p>
         </div>
       </div>
-      <div className='relative h-96 mb-6'>
+      <div className='relative h-96 mb-6 max-w-2xl m-auto'>
         <Image
           src={car}
           alt="Background car"
