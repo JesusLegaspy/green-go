@@ -35,44 +35,78 @@ const Hero = () => {
             <div className='mr-8'>You have the wheels</div>
             <div className='text-right'>we have the skills</div>
           </div>
-          <div className='grid grid-cols-3 gap-5 w-full sm:w-3/4 md:w-3/5 lg:w-4/12 xl:w-3/12 px-5 text-6xl sm:text-7xl'>
-            <div className='relative flex justify-center items-center w-full aspect-square bg-senary rounded-2xl'>
-              <Image
-                src={carIcon}
-                alt={'Car icon'}
-                className='object-contain p-3'
-                fill
-              />
+          <div className='grid grid-cols-3 gap-5 w-full sm:w-3/4 md:w-3/5 lg:w-5/12 xl:w-4/12 px-5 md:text-lg'>
+            <div className={`relative flex flex-col justify-center items-center w-full aspect-square bg-senary rounded-2xl ${shrikhand.className}`}>
+              <div className='pt-2'>
+                Vehciles
+              </div>
+              <div className='px-2 pb-2'>
+                <Image
+                  src={carIcon}
+                  alt={'Car icon'}
+                  className='object-contain'
+                  height={96}
+                  width={96}
+                />
+              </div>
             </div>
-            <div className='relative flex justify-center items-center w-full aspect-square bg-senary rounded-2xl'>
-              <Image
-                src={mufflerIcon}
-                alt={'Car icon'}
-                className='object-contain p-3'
-                fill
-              />
+            <div className={`relative flex flex-col justify-center items-center w-full aspect-square bg-senary rounded-2xl ${shrikhand.className}`}>
+              <div className='pt-2'>
+                Mufflers
+              </div>
+              <div className='px-2 pb-2'>
+                <Image
+                  src={mufflerIcon}
+                  alt={'Muffler icon'}
+                  className='object-contain'
+                  height={96}
+                  width={96}
+                />
+              </div>
             </div>
-            <div className='relative flex justify-center items-center w-full aspect-square bg-senary rounded-2xl'>
-              <Image
-                src={atvIcon}
-                alt={'Car icon'}
-                className='object-contain p-3'
-                fill
-              />
+            <div className={`relative flex flex-col justify-center items-center w-full aspect-square bg-senary rounded-2xl ${shrikhand.className}`}>
+              <div className='pt-2'>
+                ATVs
+              </div>
+              <div className='px-2 pb-2'>
+                <Image
+                  src={atvIcon}
+                  alt={'ATV icon'}
+                  className='object-contain'
+                  height={96}
+                  width={96}
+                />
+              </div>
             </div>
-            <div className='relative flex justify-center items-center w-full aspect-square bg-senary rounded-2xl'>
-              <Image
-                src={motorcycleIcon}
-                alt={'Car icon'}
-                className='object-contain p-3'
-                fill
-              />
+            <div className={`relative flex flex-col justify-center items-center w-full aspect-square bg-senary rounded-2xl ${shrikhand.className}`}>
+              <div className='pt-2'>
+                Bikes
+              </div>
+              <div className='px-2 pb-2'>
+                <Image
+                  src={motorcycleIcon}
+                  alt={'Motorcycle icon'}
+                  className='object-contain'
+                  height={96}
+                  width={96}
+                />
+              </div>
             </div>
-            <div className='relative flex justify-center items-center w-full aspect-square bg-senary rounded-2xl'>
-              <FaCaravan />
+            <div className={`relative flex flex-col justify-center items-center w-full aspect-square bg-senary rounded-2xl ${shrikhand.className}`}>
+              <div className='pt-2'>
+                RVs
+              </div>
+              <div className='px-2 pb-2 text-7xl'>
+                <FaCaravan />
+              </div>
             </div>
-            <div className='relative flex justify-center items-center w-full aspect-square bg-senary rounded-2xl'>
-              <FaTractor />
+            <div className={`relative flex flex-col justify-center items-center w-full aspect-square bg-senary rounded-2xl ${shrikhand.className}`}>
+              <div className='pt-2'>
+                Tractors
+              </div>
+              <div className='px-2 pb-2 text-7xl'>
+                <FaTractor />
+              </div>
             </div>
           </div>
           <a href="tel:8708260950">
