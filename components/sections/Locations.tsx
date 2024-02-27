@@ -37,13 +37,18 @@ const Locations = () => {
               <div className={`pl-2 ${robotoCondensedBold.className}`}>870-826-0950</div>
             </div>
             {/* Appointment Component */}
-            <div className='flex h-12 ml-3'>
-              <div className={`flex items-center text-lg h-full bg-secondary text-white ${alegreya.className}`}>
-                <div className="px-2">Appointment Now</div>
-              </div>
-              <div className="flex items-center justify-center w-10 text-lg h-full text-white bg-quinary">
-                <FaArrowRight />
-              </div>
+            <div className='group flex h-12 ml-3'>
+              <a href="tel:8708260950">
+                <div className={`flex items-center text-lg h-full bg-secondary text-white ${alegreya.className}`}>
+                  <div className="px-2">Appointment Now</div>
+                </div>
+              </a>
+              <a href="tel:8708260950">
+                <div className="flex items-center justify-center w-10 text-lg h-full text-white bg-quinary">
+                  <FaArrowRight className="group-hover:hidden" />
+                  <FaPhone className="hidden group-hover:block" />
+                </div>
+              </a>
             </div>
           </div>
         </div>

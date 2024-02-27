@@ -37,9 +37,11 @@ const Hero = () => {
             <div className='flex justify-center items-center w-full aspect-square bg-senary '><FaCaravan /></div>
             <div className='flex justify-center items-center w-full aspect-square bg-senary '><FaTractor /></div>
           </div>
-          <div className={`bg-orange-600 text-white w-fit px-8 py-2 text-6xl rounded-xl sm:mb-6 ${gurajada.className}`}>
-            Appointment
-          </div>
+          <a href="tel:8708260950">
+            <div className={`bg-orange-600 text-white w-fit px-8 py-2 text-6xl rounded-xl sm:mb-6 ${gurajada.className}`}>
+              Appointment
+            </div>
+          </a>
         </div>
       </div>
     </div>

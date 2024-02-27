@@ -1,6 +1,5 @@
 import { FaFacebook } from "react-icons/fa";
 import { Open_Sans } from 'next/font/google';
-import { FaPhone } from "react-icons/fa6";
 
 const openSans = Open_Sans({ weight: "300", subsets: ["latin"] });
 

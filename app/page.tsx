@@ -7,6 +7,7 @@ import Blog from '@/components/sections/Blog';
 import Maps from '@/components/sections/Maps';
 import Contact from '@/components/sections/Contact';
 import Footer from '@/components/sections/Footer';
+import FooterCall from '@/components/components/FooterCall';
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <Maps />
       <Contact />
       <Footer />
+      <FooterCall />
     </main>
   )
 }

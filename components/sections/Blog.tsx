@@ -16,7 +16,7 @@ const Blog = () => {
         </div>
         <Posts
           url='https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid02FB1JkzDPiZrFkvpkei2zUanTX9QVvy7Fj7MddE5kkQ4mSmLtJhiiPpf3swufChMLl%26id%3D100095414971348&show_text=true'
-          height={700}
+          height={600}
         />
         <Posts
           url='https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid02Wq64nAqR7RbdyB3rHR7XMwpVMwSHbg5soHEm8LQoSQWGdDehQbwqTxcGzfeqrzEql%26id%3D100095414971348&show_text=true'
