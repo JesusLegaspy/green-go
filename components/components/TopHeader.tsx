@@ -31,7 +31,7 @@ const TopHeader = () => {
 
       </div>
       <div className={`w-full bg-quinary text-white text-center uppercase ${montserrat.className}`}>
-        Hope's vehicle service experts
+        Hope&apos;s vehicle service experts
       </div>
     </div>
   );

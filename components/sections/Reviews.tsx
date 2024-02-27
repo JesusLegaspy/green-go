@@ -44,7 +44,7 @@ const Reviews = async () => {
         <div className='flex justify-center'>
           <div className='md:max-w-2xl p-4 mt-8'>
             <div className="mb-6">
-              <p>We believe the greatest compliment is a customer referral. That's why we provide all customers with the absolute best service and highest quality work, at fair and competitive prices. See what other have to say:</p>
+              <p>We believe the greatest compliment is a customer referral. That&apos;s why we provide all customers with the absolute best service and highest quality work, at fair and competitive prices. See what other have to say:</p>
             </div>
           </div>
         </div>
