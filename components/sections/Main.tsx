@@ -2,8 +2,6 @@ import Hero from '../components/Hero';
 import TopHeader from '../components/TopHeader';
 import Appointment from '../components/Appointment';
 
-import { Open_Sans } from 'next/font/google'
-
 const Main = () => {
 
   return (

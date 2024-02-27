@@ -29,13 +29,13 @@ const Hero = () => {
             <div className='mr-8'>You have the wheels</div>
             <div className='text-right'>we have the skills</div>
           </div>
-          <div className='grid grid-cols-3 gap-5 w-full sm:w-3/4 md:w-3/5 lg:w-4/12 xl:w-3/12 px-5 text-6xl sm:text-8xl'>
-            <div className='flex justify-center items-center w-full aspect-square bg-senary p-2'><FaCar /></div>
-            <div className='flex justify-center items-center w-full aspect-square bg-senary p-2'><FaMotorcycle /></div>
-            <div className='flex justify-center items-center w-full aspect-square bg-senary p-2'><FaTruckPickup /></div>
-            <div className='flex justify-center items-center w-full aspect-square bg-senary p-2'><FaTruck /></div>
-            <div className='flex justify-center items-center w-full aspect-square bg-senary p-2'><FaCaravan /></div>
-            <div className='flex justify-center items-center w-full aspect-square bg-senary p-2'><FaTractor /></div>
+          <div className='grid grid-cols-3 gap-5 w-full sm:w-3/4 md:w-3/5 lg:w-4/12 xl:w-3/12 px-5 text-6xl sm:text-7xl'>
+            <div className='flex justify-center items-center w-full aspect-square bg-senary '><FaCar /></div>
+            <div className='flex justify-center items-center w-full aspect-square bg-senary '><FaMotorcycle /></div>
+            <div className='flex justify-center items-center w-full aspect-square bg-senary '><FaTruckPickup /></div>
+            <div className='flex justify-center items-center w-full aspect-square bg-senary '><FaTruck /></div>
+            <div className='flex justify-center items-center w-full aspect-square bg-senary '><FaCaravan /></div>
+            <div className='flex justify-center items-center w-full aspect-square bg-senary '><FaTractor /></div>
           </div>
           <div className={`bg-orange-600 text-white w-fit px-8 py-2 text-6xl rounded-xl sm:mb-6 ${gurajada.className}`}>
             Appointment

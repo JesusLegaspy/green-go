@@ -6,6 +6,7 @@ import Reviews from '@/components/sections/Reviews';
 import Blog from '@/components/sections/Blog';
 import Maps from '@/components/sections/Maps';
 import Contact from '@/components/sections/Contact';
+import Footer from '@/components/sections/Footer';
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <Blog />
       <Maps />
       <Contact />
+      <Footer />
     </main>
   )
 }
