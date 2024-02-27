@@ -53,7 +53,7 @@ const Maps = async () => {
   const data: ResponseDetails = await getDetails();
 
   const rating = data.result.rating;
-  const url = data.result.url;
+  const mapUrl = data.result.url;
   const website = data.result.website;
   const name = data.result.name;
   const openingHours = data.result.opening_hours;
@@ -81,7 +81,7 @@ const Maps = async () => {
         />
         <div className="group absolute w-full h-full">
           <div className="z-10 absolute w-full h-full bg-slate-600 opacity-0 group-hover:opacity-15" />
-          <a href={url} target="_blank">
+          <a href={mapUrl} target="_blank">
             <div className="z-20 absolute w-full h-full flex items-center justify-center text-black opacity-0 group-hover:opacity-100 drop-shadow-lg">
               Click to view on Google Maps
             </div>
@@ -113,10 +113,10 @@ const Maps = async () => {
                 </a>
               </div>
               <div className="flex flex-col justify-center items-center">
-                <a href={url} target="_blank">
+                <a href={mapUrl} target="_blank">
                   <FaDirections className="border border-blue-600 rounded-full text-2xl h-10 w-10 p-2.5" />
                 </a>
-                <a href={url} target="_blank">
+                <a href={mapUrl} target="_blank">
                   <div>Directions</div>
                 </a>
               </div>
