@@ -8,10 +8,12 @@ import Maps from '@/components/sections/Maps';
 import Contact from '@/components/sections/Contact';
 import Footer from '@/components/sections/Footer';
 import FooterCall from '@/components/components/FooterCall';
+import TopBar from '@/components/components/TopBar';
 
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center">
+      <TopBar />
       <Main />
       <About />
       <Services />
