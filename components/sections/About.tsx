@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import car from '@/public/car.jpg';
+import car from '@/public/car.webp';
 import { Roboto_Condensed } from 'next/font/google'
 import Appointment from '../components/Appointment';
 

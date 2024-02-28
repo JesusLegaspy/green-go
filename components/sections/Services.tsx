@@ -10,8 +10,7 @@ import { MdElectricBolt } from "react-icons/md";
 import { FaGasPump } from "react-icons/fa6";
 import { ImKey2 } from "react-icons/im";
 import { FaCarCrash } from "react-icons/fa";
-import { GiSmokeBomb } from "react-icons/gi";
-import muffler from '@/public/muffler.png';
+import muffler from '@/public/muffler.webp';
 
 const robotoCondensed = Roboto_Condensed({ weight: "400", subsets: ["latin"] });
 

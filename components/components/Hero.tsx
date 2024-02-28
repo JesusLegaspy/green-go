@@ -1,15 +1,15 @@
 import Image from 'next/image';
-import hero from '@/public/hero.jpg';
-import atvIcon from '@/public/atv-icon.png';
-import carIcon from '@/public/car-icon.png';
-import motorcycleIcon from '@/public/motorcycle-icon.png';
-import mufflerIcon from '@/public/muffler-icon.png';
-import { Gidugu } from 'next/font/google'
-import { Gurajada } from 'next/font/google'
-import { FaCar } from "react-icons/fa";
-import { FaMotorcycle } from "react-icons/fa6";
-import { FaTruckPickup } from "react-icons/fa6";
-import { FaTruck } from "react-icons/fa6";
+import hero from '@/public/hero.webp';
+import atvIcon from '@/public/icon_atv.webp';
+import carIcon from '@/public/icon_car.webp';
+import motorcycleIcon from '@/public/icon_bike.webp';
+import mufflerIcon from '@/public/icon_muffler.webp';
+import { Gidugu } from 'next/font/google';
+import { Gurajada } from 'next/font/google';
+// import { FaCar } from "react-icons/fa";
+// import { FaMotorcycle } from "react-icons/fa6";
+// import { FaTruckPickup } from "react-icons/fa6";
+// import { FaTruck } from "react-icons/fa6";
 import { FaCaravan } from "react-icons/fa6";
 import { FaTractor } from "react-icons/fa6";
 import { Shrikhand } from 'next/font/google';
@@ -96,7 +96,7 @@ const Hero = () => {
               <div className='pt-2'>
                 RVs
               </div>
-              <div className='px-2 pb-2 text-7xl'>
+              <div className='px-2 pb-2 text-7xl text-gray-800'>
                 <FaCaravan />
               </div>
             </div>
@@ -104,7 +104,7 @@ const Hero = () => {
               <div className='pt-2'>
                 Tractors
               </div>
-              <div className='px-2 pb-2 text-7xl'>
+              <div className='px-2 pb-2 text-7xl text-gray-800'>
                 <FaTractor />
               </div>
             </div>
