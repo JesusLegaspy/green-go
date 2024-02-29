@@ -31,7 +31,7 @@ const About = () => {
       <div className='flex justify-center mb-6'>
         <div className='p-4 md:max-w-2xl text-white'>
           <p className='mb-8'>
-            Out shop is equipped with industry-leading equipment to properly diagnose and resolved issues the first time. Our auto mechanics are very friendly, knowledgeable and ready to help you with your service.
+            Our shop is equipped with industry-leading equipment to properly diagnose and resolved issues the first time. Our auto mechanics are very friendly, knowledgeable and ready to help you with your service.
           </p>
           <Appointment />
         </div>

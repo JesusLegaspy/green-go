@@ -33,10 +33,10 @@ const Services = () => {
         <Service Icon={GiCarWheel} text="Brakes and Wheel Balance" />
         <Service Icon={FaTemperatureHigh} text="Air Conditioning and Cooling" />
         <Service Icon={GiSpring} text="Suspension and Struts" />
-        <Service Icon={MdElectricBolt} text="Electrical" />
-        <Service Icon={FaGasPump} text="Fuel" />
-        <Service Icon={ImKey2} text="Ignition" />
-        <Service Icon={FaCarCrash} text="Chassis" />
+        <Service Icon={MdElectricBolt} text="Electrical - Battery, Alternator, Starter" />
+        <Service Icon={FaGasPump} text="Fuel - Injector, Pump" />
+        <Service Icon={ImKey2} text="Ignition - Spark Plugs, etc." />
+        <Service Icon={FaCarCrash} text="Chassis - Axle, CV Joint" />
         <div className='flex items-center justify-center mb-12'>
           <div className='text-7xl bg-tertiary text-black rounded-lg p-2'>
             <Image
@@ -46,7 +46,7 @@ const Services = () => {
             />
           </div>
           <div className='flex items-center bg-quaternary w-8/12 h-12 max-w-sm'>
-            <p className='uppercase pl-3'>Exhaust</p>
+            <p className='uppercase pl-3'>Exhaust - Muffler, Catalytic Converter</p>
           </div>
         </div>
       </div>
