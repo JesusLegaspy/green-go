@@ -10,7 +10,7 @@ import { Gurajada } from 'next/font/google';
 // import { FaMotorcycle } from "react-icons/fa6";
 // import { FaTruckPickup } from "react-icons/fa6";
 // import { FaTruck } from "react-icons/fa6";
-import { FaCaravan } from "react-icons/fa6";
+import { FaCaravan, FaPhone } from "react-icons/fa6";
 import { FaTractor } from "react-icons/fa6";
 import { Shrikhand } from 'next/font/google';
 
@@ -110,8 +110,8 @@ const Hero = () => {
             </div>
           </div>
           <a href="tel:8708260950">
-            <div className={`bg-orange-600 text-white w-fit px-8 py-2 text-6xl rounded-xl sm:mb-6 ${gurajada.className}`}>
-              Appointment
+            <div className={`flex bg-orange-600 text-white w-fit px-8 py-2 text-6xl rounded-xl sm:mb-6 ${gurajada.className}`}>
+              <FaPhone className='mr-3 text-3xl self-center' /> Appointment
             </div>
           </a>
         </div>
